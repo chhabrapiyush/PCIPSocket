@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78270C5A2116867400637D07 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 78270C592116867400637D07 /* User.m */; };
+		78270C5D2116869000637D07 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 78270C5C2116869000637D07 /* Event.m */; };
 		78B3491021106EBB00EC0CDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B3490F21106EBB00EC0CDB /* AppDelegate.m */; };
 		78B3491321106EBB00EC0CDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B3491221106EBB00EC0CDB /* ViewController.m */; };
 		78B3491621106EBB00EC0CDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B3491421106EBB00EC0CDB /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		78B3491E21106EBB00EC0CDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B3491D21106EBB00EC0CDB /* main.m */; };
 		78B3492821106EBB00EC0CDB /* PagerAssessmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B3492721106EBB00EC0CDB /* PagerAssessmentTests.m */; };
 		78B3493321106EBB00EC0CDB /* PagerAssessmentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B3493221106EBB00EC0CDB /* PagerAssessmentUITests.m */; };
+		78C4920C21146CD30099E0AB /* PCIPSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C4920B21146CD30099E0AB /* PCIPSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		78270C582116867400637D07 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = User.h; path = Model/User.h; sourceTree = "<group>"; };
+		78270C592116867400637D07 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Model/User.m; sourceTree = "<group>"; };
+		78270C5B2116869000637D07 /* Event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Event.h; path = Model/Event.h; sourceTree = "<group>"; };
+		78270C5C2116869000637D07 /* Event.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Event.m; path = Model/Event.m; sourceTree = "<group>"; };
 		78B3490B21106EBB00EC0CDB /* PagerAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagerAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B3490E21106EBB00EC0CDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		78B3490F21106EBB00EC0CDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +58,8 @@
 		78B3492E21106EBB00EC0CDB /* PagerAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagerAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B3493221106EBB00EC0CDB /* PagerAssessmentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PagerAssessmentUITests.m; sourceTree = "<group>"; };
 		78B3493421106EBB00EC0CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78C4920A21146CD30099E0AB /* PCIPSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCIPSocket.h; sourceTree = "<group>"; };
+		78C4920B21146CD30099E0AB /* PCIPSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCIPSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				78B3490E21106EBB00EC0CDB /* AppDelegate.h */,
+				78C4920A21146CD30099E0AB /* PCIPSocket.h */,
+				78C4920B21146CD30099E0AB /* PCIPSocket.m */,
 				78B3490F21106EBB00EC0CDB /* AppDelegate.m */,
 				78B3491121106EBB00EC0CDB /* ViewController.h */,
 				78B3491221106EBB00EC0CDB /* ViewController.m */,
@@ -110,6 +121,10 @@
 				78B3491921106EBB00EC0CDB /* LaunchScreen.storyboard */,
 				78B3491C21106EBB00EC0CDB /* Info.plist */,
 				78B3491D21106EBB00EC0CDB /* main.m */,
+				78270C582116867400637D07 /* User.h */,
+				78270C592116867400637D07 /* User.m */,
+				78270C5B2116869000637D07 /* Event.h */,
+				78270C5C2116869000637D07 /* Event.m */,
 			);
 			path = PagerAssessment;
 			sourceTree = "<group>";
@@ -265,7 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78270C5D2116869000637D07 /* Event.m in Sources */,
+				78270C5A2116867400637D07 /* User.m in Sources */,
 				78B3491321106EBB00EC0CDB /* ViewController.m in Sources */,
+				78C4920C21146CD30099E0AB /* PCIPSocket.m in Sources */,
 				78B3491E21106EBB00EC0CDB /* main.m in Sources */,
 				78B3491021106EBB00EC0CDB /* AppDelegate.m in Sources */,
 			);
